@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Whiskey Drop | Taste a new whiskey every month</title>
 </head>
 
@@ -27,7 +29,6 @@
                 <li class="visible-xs"><a href="">Sign In</a></li>
             </ul>
 
-            <!--Message-->
             <div class="navbar-header navbar-right hidden-xs">
                 <a href="/login" class="btn btn-default navbar-btn">Sign Up</a>
                 <p class="navbar-text"><i>Great whiskey delivered to your door</i></p>
@@ -36,154 +37,200 @@
     </nav>
     <!-- /.nav -->
 
-    <article class="container">
-        <!--Alert-->
-        <div class="row hidden-xs">
-            <div class="col-xs-12">
-                <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong>
-                    We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
+    
+
+        <div class="container-fluid alert-container">
+            <!--Alert-->
+            <div class="row hidden-xs">
+                <div class="col-xs-12">
+                    <div class="alert alert-warning">
+                        <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
+                    </div>
+                </div>
+            </div>
+            <!--/.alert-->
+        </div>
+
+    <div class="container">
+        <div class="container callout-container">
+            <!-- Callout -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <section class="callout jumbotron text-center">
+                        <h1>The finest whiskeys delivered to your doorstep.</h1>
+                        <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">£19.99 </s><span class="visible-xs"><br></span><strong><mark>First one is free!</mark></strong></p>
+                        <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUp">Sign Up!</button></p>
+                        <p class="text-muted"><small>You must be over 18 to sign up to our service.  Please drink responsibly.</small></p>
+                    </section>
+                </div>
+            </div>
+            <!-- /.callout -->
+        </div>
+
+        <div class="container quotes-container">
+            <!-- Quotes -->
+
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h2 class="text-uppercase">Quotes:</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="media">
+                            <div class="media-left hidden-xs">
+                                <img src="images/20170315_125315.jpg" alt="" class="img-circle media-object" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="quote">
+                                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                                    <footer>Carl Morgan on <cite title="Twitter">Twitter</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="media">
+                            <div class="media-left hidden-xs">
+                                <img src="images/IMAG0233.jpg" alt="" class="img-circle media-object" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="quote">
+                                    <p>I haven't been sober for months!</p>
+                                    <footer>Jacqueline Fiorletta on <cite title="Twitter">Twitter</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.quotes -->
+        </div>
+
+        <div class="container features-container">
+            <!-- Features -->
+            <section class="features">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h2 class="text-uppercase">Features:</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-warning-sign hidden-xs"></span> Feature 1 <span class="label label-success">New!</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi animi voluptates laboriosam molestiae porro tenetur nobis cum maxime fuga iure dicta et, inventore doloremque, fugiat voluptate facere eveniet ea! Perferendis
+                                ipsum, obcaecati? Eligendi dolore molestias veniam corporis perspiciatis fugiat ducimus, inventore ad aliquid est ab nostrum sint iusto! Modi, repudiandae!</p>
+                            <p><a href="#" class="btn btn-sm btn-default">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-fire hidden-xs"></span> Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi animi voluptates laboriosam molestiae porro tenetur nobis cum maxime fuga iure dicta et, inventore doloremque, fugiat voluptate facere eveniet ea! Perferendis
+                                ipsum, obcaecati? Eligendi dolore molestias veniam corporis perspiciatis fugiat ducimus, inventore ad aliquid est ab nostrum sint iusto! Modi, repudiandae!</p>
+                            <p><a href="#" class="btn btn-sm btn-default">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 hidden-md col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-thumbs-up hidden-xs"></span> Feature 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi animi voluptates laboriosam molestiae porro tenetur nobis cum maxime fuga iure dicta et, inventore doloremque, fugiat voluptate facere eveniet ea! Perferendis
+                                ipsum, obcaecati? Eligendi dolore molestias veniam corporis perspiciatis fugiat ducimus, inventore ad aliquid est ab nostrum sint iusto! Modi, repudiandae!</p>
+                            <p><a href="#" class="btn btn-sm btn-default">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.features-->
+        </div>
+
+        <div class="container favourites-container">
+            <!-- Favourites -->
+            <section class="monthly-favourites">
+                <div class="row">
+                    <div class="page-header">
+                        <h2 class="text-uppercase">Monthly Favourites:</h2>
+                    </div>
+                </div>
+
+                <table class="table table-striped table-condensed">
+                    <tbody>
+                        <tr class="info">
+                            <td><strong>Rank</strong></td>
+                            <td><strong>Name</strong></td>
+                            <td><strong>Origin</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>1</strong></td>
+                            <td><strong>Glen Ord</strong></td>
+                            <td><strong>Wales</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>2</strong></td>
+                            <td><strong>Glen Fiddich</strong></td>
+                            <td><strong>Scotland</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>3</strong></td>
+                            <td><strong>Fireball</strong></td>
+                            <td><strong>Hell</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>4</strong></td>
+                            <td><strong>Bushmills</strong></td>
+                            <td><strong>Ireland</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>5</strong></td>
+                            <td><strong>Glen Morangie</strong></td>
+                            <td><strong>Scotland</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- favourites-->
+        </div>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign Up for Whiskey Drop!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Re-enter Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
                 </div>
             </div>
         </div>
-        
-        <!-- Callout -->
-        <div class="row">
-            <div class="col-xs-12">
-                <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">£19.99 </s><span class="visible-xs"><br></span><strong><mark>First one is free!</mark></strong></p>
-                    <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
-                    <p class="text-muted"><small>You must be over 18 to sign up to our service.  Please drink responsibly.</small></p>
-                </section>
-            </div>
-        </div>
-        <!-- /.callout -->
+    </div>
 
-        <!-- Quotes -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <section class="quotes">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="page-header">
-                        <h2 class="text-uppercase">Quotes:</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                            <img src="images/20170315_125315.jpg" alt="" class="img-circle media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="quote">
-                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                                <footer>Carl Morgan on <cite title="Twitter">Twitter</cite></footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                            <img src="images/IMAG0233.jpg" alt="" class="img-circle media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="quote">
-                                <p>I haven't been sober for months!</p>
-                                <footer>Jacqueline Fiorletta on <cite title="Twitter">Twitter</cite></footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--/.quotes -->
-
-        <!-- Features -->
-        <section class="features">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="page-header">
-                        <h2 class="text-uppercase">Features:</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><span class="glyphicon glyphicon-warning-sign hidden-xs"></span> Feature 1 <span class="label label-success">New!</span></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi animi voluptates laboriosam molestiae porro tenetur nobis cum maxime fuga iure dicta et, inventore doloremque, fugiat voluptate facere eveniet ea! Perferendis
-                            ipsum, obcaecati? Eligendi dolore molestias veniam corporis perspiciatis fugiat ducimus, inventore ad aliquid est ab nostrum sint iusto! Modi, repudiandae!</p>
-                        <p><a href="#" class="btn btn-sm btn-default">Read More</a></p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><span class="glyphicon glyphicon-fire hidden-xs"></span> Feature 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi animi voluptates laboriosam molestiae porro tenetur nobis cum maxime fuga iure dicta et, inventore doloremque, fugiat voluptate facere eveniet ea! Perferendis
-                            ipsum, obcaecati? Eligendi dolore molestias veniam corporis perspiciatis fugiat ducimus, inventore ad aliquid est ab nostrum sint iusto! Modi, repudiandae!</p>
-                        <p><a href="#" class="btn btn-sm btn-default">Read More</a></p>
-                    </div>
-                </div>
-                <div class="col-xs-12 hidden-md col-lg-4">
-                    <div class="feature">
-                        <h3><span class="glyphicon glyphicon-thumbs-up hidden-xs"></span> Feature 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi animi voluptates laboriosam molestiae porro tenetur nobis cum maxime fuga iure dicta et, inventore doloremque, fugiat voluptate facere eveniet ea! Perferendis
-                            ipsum, obcaecati? Eligendi dolore molestias veniam corporis perspiciatis fugiat ducimus, inventore ad aliquid est ab nostrum sint iusto! Modi, repudiandae!</p>
-                        <p><a href="#" class="btn btn-sm btn-default">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--/.features-->
-
-        <!-- Favourites -->
-        <section class="monthly-favourites">
-            <div class="row">
-                <div class="page-header">
-                    <h2 class="text-uppercase">Monthly Favourites:</h2>
-                </div>
-            </div>
-
-            <table class="table table-striped table-condensed">
-                <tbody>
-                    <tr class="info">
-                        <td><strong>Rank</strong></td>
-                        <td><strong>Name</strong></td>
-                        <td><strong>Origin</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>1</strong></td>
-                        <td><strong>Glen Ord</strong></td>
-                        <td><strong>Wales</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>2</strong></td>
-                        <td><strong>Glen Fiddich</strong></td>
-                        <td><strong>Scotland</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>3</strong></td>
-                        <td><strong>Fireball</strong></td>
-                        <td><strong>Hell</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>4</strong></td>
-                        <td><strong>Bushmills</strong></td>
-                        <td><strong>Ireland</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>5</strong></td>
-                        <td><strong>Glen Morangie</strong></td>
-                        <td><strong>Scotland</strong></td>
-                    </tr>
-                </tbody>
-            </table>
-            <!-- favourites-->
-        </section>
-    </article>
 </body>
 
 </html>
